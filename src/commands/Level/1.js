@@ -1,0 +1,11 @@
+module.exports = ({
+
+name:"$alwaysExecute",
+
+code:`$setUserVar[exp;$sum[$getUserVar[exp];$random[4;8]]]
+
+$cooldown[7s]
+$suppressErrors
+$onlyif[$getservervar[levelling]==true;]`})
+
+ 
