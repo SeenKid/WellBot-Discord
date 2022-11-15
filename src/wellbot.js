@@ -9,30 +9,13 @@
    intents: "all"
 
   });
-// const aoidash = require('aoi.js-panel')
-
-// const dash = new aoidash.Dash({
-
-// port: 20004,
-
-// bot: bot,
-
-// command: './src/commands/', //your command handler
-
-// username: "welltag", //username to login to dashboard
-
-// password: "welltag0001" //password to login to dashboard
-
-// })
-
-// dash.start()
 
 bot.onMessage() //enables bot to see messages (required for executing Commands)
  const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"../src/commands")
 
 bot.variables({
-logo: "https://cdn.discordapp.com/avatars/936707500416319509/05e59bb0225b548dd5976872e554630b.webp",
+logo: "https://cdn.discordapp.com/avatars/936707500416319509/3386b19100e9c97376c9972d29ed5e47.png?size=256",
     bvn: "", 
     autorole: "a", 
     levelling:"false",
