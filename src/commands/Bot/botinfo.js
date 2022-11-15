@@ -26,5 +26,5 @@ __**WELLBOT**__
 
 🐧 Platform: $replaceText[$djsEval[require ('os').platform();yes]; 🐧 Linux;-1]
 
-👑 Développeur: **⚡WELLTAG ❤#9999 & ac#1010**} {color:RANDOM}{thumbnail:$getServerVar[logo]} };;;;no] `
+👑 Développeur: **sorrow#9230**} {color:RANDOM}{thumbnail:$getServerVar[logo]} };;;;no] `
    } 
